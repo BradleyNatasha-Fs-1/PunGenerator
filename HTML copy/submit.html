@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pun Generator Submit Joke</title>
+    <link href="/CSS/reset.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/CSS/submitform.css">
+</head>
+<body data-page="submit">
+        <!--submit page-->
+        <header class="d-flex justify-content-center">
+            <!--Title-->
+            <h1>PUN GENERATOR</h1>
+            <!--Navigation - their are 3 pages-->
+            <nav class="navbar">
+              <ul>
+                <li class="d-inline-flex">
+                    <i class="bi bi-house"></i>
+                     <a href="/index.html">Home</a>
+                </li>
+                 <li class="d-inline-flex">
+                    <i class="bi bi-pencil"></i>
+                    <a aria-current="page" href="submit.html">Submit</a>
+                </li>
+                 <li class="d-inline-flex">
+                    <i class="bi bi-book"></i>
+                    <a href="learn.html">Learn</a>
+                </li>
+             </ul>
+            </nav>
+        </header>
+        <main>
+            <form>
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Can put anonymous" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Valid email address" required>
+                </div>
+                <div>
+                    <label for="joke">Joke</label>
+                    <textarea id="joke" name="joke" placeholder="Enter joke" required></textarea>
+                </div>
+                <button type="submit" id="submitBtn" class="btn btn-md">PUSH</button>
+            </form>
+        </main>
+        <footer>
+            <!--Contact information-->
+            <h2>Contact</h2>
+            <p>
+                Reach out with any questions or concerns.
+            </p>
+            <h3>
+                <i class="bi bi-chat-square"></i>
+                <a href="contact.html">contact form</a>
+            </h3>
+            <p>&copy; Natasha Bradley</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+        <script src="/JS/form.js"></script>
+</body>
+</html>
